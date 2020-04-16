@@ -1,12 +1,12 @@
 #include "FamilyTree.hpp"
 using namespace family;
 
-Tree &Tree::addFather(std::string myName, std::string fatherName){
-    Tree *t = new Tree("somename");
+Tree& Tree::addFather(std::string myName, std::string fatherName){
+    Tree* t = new Tree("somename");
     return *t;
 }
-Tree &Tree::addMother(std::string myName, std::string motherName){
-    Tree *t = new Tree("somename");
+Tree& Tree::addMother(std::string myName, std::string motherName){
+    Tree* t = new Tree("somename");
     return *t;
 }
 std::string Tree::relation(std::string name){
